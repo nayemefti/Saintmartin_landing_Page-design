@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+font-family: 'Amatic SC', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Festive', cursive
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Syne Tactile', cursive;
+/* header section css start */
+/* top header section css start */
+.container{
+    height: 296px;
+    width: 100%;
+    background-color: #a4afd1;
+    padding: 10px 0px;
+   
+}
+.top{
+    color: #fe5c24;
+    padding: 5px;
+    
+}
+.col-md-8 a{
+    padding: 10px;
+    text-decoration: none;
+    color: #0c3e72;
+}
+.top-bottom{
+    margin: 2px;
+}
+.top-bottom i{
+    padding: 5px;
+    color: #777;
+}
+.col-md-4{
+    padding: 0px 10px;
+}
+
+/* main header section css start */
+.main-header{
+    color: rgb(202, 195, 195);
+    padding: 20px;
+}
+.col-md-3 h3{
+    color: #0c3e72;
+    font-size: 28px;
+    font-weight: 800;
+}
+.col-md-6 ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+.col-md-6 ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: #0c3e72;
+}
+.col-md-6 ul a:hover{
+    color: #fe5c24;
+}
+.col-md-3 button{
+    height: 50px;
+    width: 130px;
+    color: #ffff;
+    background-color: #fe5c24;
+    border-radius: 5px;
+    border: 1px solid #fe5c24;
+}
+.col-md-3 button:hover{
+    background-color: #2493e0;
+    border: 1px solid #2493e0;
+}
+/* header section css end */
+
+/* banner section css start */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px;
+}
+.image-section{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.image-section h1{
+    font-size: 120px;
+    color: #fff;
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 800;
+}
+.image-section p{
+    font-size: 32px;
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;;
+}
+.image-section button{
+    height: 60px;
+    width: 200px;
+    color: #ffff;
+    background-color: #2493e0;
+    border-radius: 5px;
+    border: 1px solid #2493e0;
+}
+.image-section button:hover{
+    background-color: #fe5c24;
+    border: 1px solid #fe5c24;
+}
+/* banner section css end */
+/* booking section css start */
+ .col-md-4{
+     display: flex;
+ }
+/* booking section css end */
+
+/* places section css start here */
+
+/* places section css end here */
+
+/* button section css start here */
+.button{
+    padding: 20px 40px;
+    text-align: center;
+}
+.btn button{
+    height: 60px;
+    width: 200px;
+    color: #ffff;
+    background-color: #fe5c24;
+    border-radius: 5px;
+    border: 1px solid #fe5c24;
+}
+.btn button:hover{
+    background-color: #2493e0;
+    border: 1px solid #2493e0;
+
+}   
+/* button section css end here */
+
+/* event section css start here */
+.event{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/xevent_bg.png.pagespeed.ic.hDegBD_q05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 100px 0px;
+}
+.group{
+    background-color: #fff;
+    position: absolute;
+    right: 20px;
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
+    padding: 80px 0px;
+}
+.group h3{
+    color: #fe5c24;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+.group h1{
+    color: #0c3e72;
+    font-size: 34px;
+    font-weight: 400;
+    margin: 10px 30px;
+}
+.group p{
+    color: #63676e;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px 30px;
+}
+.group h4{
+    color: #63676e;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px 30px;
+}
+.group span{
+    color: #fe5c24;
+}
+.group span a{
+    color: #fe5c24;
+}
+/* event section css end here */
+
+/* Hotel section top css start here */
+.bottom-section{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+.top-section{
+    text-align: center;
+}
+.top-section h1{
+    color: #0c3e72;
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.top-section p{
+    color: #63676e;
+    font-family: "Open Sans",sans-serif;;
+    font-size: 16px;
+    font-weight: 28px;
+    margin-bottom: 50px;
+}
+/* Hotel section top css end here */
+
+/* Hotel section bottom css here */
+   .hotel-section{
+       display: flex;
+
+   }
+   .hotel-section h1{
+       color: #0c3e72;
+       margin-top: 5px;
+       font-size: 30px;
+       font-weight: 400;
+   }
+   .hotel-section i{
+       color: #ffc962;
+       font-size: 16px;
+   }
+   .hotel-section span{
+       color: #b8bdc5;
+       font-size: 16px;
+   }
+   .hotel-section h5{
+       color: #8e98a7;
+       font-size: 20px;
+       font-weight: 400;
+   }
+   .hotel-section h6{
+       color: #0c3e72;
+       font-size: 20px;
+       font-weight: 400;
+   }
+    .price{
+       color: #fe5c24;
+   }
+   .hotel{
+       margin-right: 20px;
+   }
+   .motel{
+       margin-right: 20px;
+   }
+/* Hotel section bottom css end here */
+
+/* comment section css start here */
+.comment{
+    width: 100%;
+    height: 600px;
+    background-color: #0c3e72;
+    margin-bottom: 150px;
+}
+.comment-section h1{
+    padding-top: 20px ;
+    color: #fff;
+    font-size: 44px;
+}
+.row-section{
+    display: flex;
+    padding-top: 70px;
+}
+.row-section i{
+    color: #ffc962;
+}
+.row-section p{
+    color: #fff;
+}
+.row-section h5{
+    color: #fff;
+    font-size: 18px;
+}
+.section1{
+    background-color: #046cb6;
+    padding-right: 20px;
+    margin-right: 10px;
+    padding: 50px;
+}
+.section2{
+    background-color: #046cb6;
+    padding-right: 20px;
+    margin-right: 10px;
+    padding: 50px;
+}
+.section3{
+    background-color: #046cb6;
+    padding-right: 20px;
+    margin-right: 10px;
+    padding: 50px;
+}
+/* comment section css end here */
+
+/* offer section css start */
+.offer-top{
+    text-align: center;
+}
+.offer-top h1{
+    color: #0c3e72;
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.offer-section p{
+    color: #777;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 16px;
+    line-height: 28px;
+} 
+/* ******************
+****offer bottom section start here */
+.offer-bottom{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.offer-bottom h1{
+    color: #0c3e72;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.airport{
+    padding-right: 20px;
+}
+
+.card{
+    padding-right: 0px;
+    background-position: cover;
+}
+.bedroom{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.paris{
+    padding-right: 20px;
+}
+/* offer section css end */
+
+/* footer section css start here */
+.footer{
+    background-color: #162b45;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+}
+.footer-section{
+    display: flex;
+}
+.footer-right h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 130px;
+}
+.footer-right h4{
+    color: #fff;
+    font-size: 15px;
+    margin: 15px;
+    text-decoration: none;
+    margin-right: -5px;
+}
+.footer-right a{
+    text-decoration: none;
+}
+.footer-right h4:hover{
+    color: #fe5c24;
+}
+/* footer side section here */
+.footer-side{
+    margin-top: 190px;
+}
+.footer-side h3{
+    font-size: 16px;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+.footer-side a{
+    text-decoration: none;
+}
+.footer-side h3:hover{
+    color: #fe5c24;
+}
+/* footer middle section  */
+.footer-middle{
+    margin-top: 100px;
+}
+.footer-middle h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+#email{
+    background-color: #092742;
+    border: 1px solid #092742;
+    margin-top: 20px;
+    width: 67%;
+    height: 50px;
+}
+#email:hover{
+    border: 1px solid #092742;
+}
+.footer-middle button{
+    width: 70px;
+    height: 50px;
+    color: #fff;
+    background-color: #fe5c24;
+    border: 1px solid #fe5c24;
+}
+.footer-middle h4{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* footer left section here */
+.footer-left{
+    margin-top: 80px;
+}
+.footer-left h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.footer-left p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.footer-left h6{
+    color: #fe5c24;
+    margin-top: 10px;
+}
+.footer-left a{
+    margin-top: 30px;
+    color: #fff;
+    padding: 5px;
+}
+.footer-left a:hover{
+    color: #fe5c24;
+    transform: 10sc;
+}
+/* footer section css end here */
+/* copyright section css start here */
+.copyright{
+    background-color: #08223a;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 1px;
+}
+.copyright-section {
+    text-align: center;
+    line-height: 90px;
+}
+.copyright-section p{
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;;
+}
+.copyright-section span{
+    color: #fe5c24;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* copyright section css end here */
